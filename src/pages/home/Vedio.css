@@ -1,0 +1,396 @@
+.policestation {
+  display: flex;
+  align-self: center;
+  margin-left: 580px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.underlin {
+  width: 71px;
+  height: 6px;
+  background: #06000f;
+  border-radius: 9px;
+  margin-left: 629px;
+}
+
+.fcontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid gray; */
+  /* height: 44px; */
+  width: auto;
+  margin-top: 15px;
+  width: Fixed (934px);
+  height: Hug (52px);
+  top: 161px;
+  left: 110px;
+  margin-left: 57px;
+  cursor: pointer;
+}
+
+.underli {
+  width: 1100px;
+  height: 2px;
+  background: rgb(128, 128, 128);
+  border-radius: 3px;
+  margin-left: 80px;
+}
+.fitem {
+  background-color: transparent;
+  margin: 14px;
+  cursor: pointer;
+  cursor: underline;
+}
+
+.item1 {
+  font-weight: 700;
+}
+
+.underl {
+  width: 120px;
+  height: 3px;
+  background: rgba(25, 0, 255, 0.816);
+  border-radius: 3px;
+  margin-left: 105px;
+}
+
+.line {
+  margin-left: 150px;
+  margin-top: 33px;
+  font-weight: 500;
+  font-size: 18px;
+}
+#drop-area {
+  display: flex;
+  width: 900px;
+  height: 250px;
+  padding: 30px;
+  background: pink;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 180px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#input-file {
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* .hero{
+  border-left: 15px;
+} */
+
+#image-view {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-left: 20px;
+  /* align-items: center; */
+  width: 130%;
+  height: 120%;
+  border-radius: 20px;
+  /* border: 2px dashed #bbb5ff; */
+  /* margin-right: px; */
+  justify-content: center;
+  text-align: center;
+  padding-left: 5px;
+  /* padding-top: 36px; */
+  /* padding-left: 10pxpx; */
+  padding-right: 3px;
+  /* padding-bottom: 7px; */
+  cursor: pointer;
+  /* padding-right: 100px;  */
+}
+
+#image-view img {
+  width: 45%;
+  padding-right: 75px;
+  padding-top: 24px;
+  /* margin-top: 25px; */
+}
+
+.file {
+  font-size: 16px;
+  margin-top: 8px;
+  padding: 4px;
+  padding-right: 75px;
+  font-weight: 600;
+}
+.file2 {
+  font-size: 13px;
+  padding: 8px;
+  padding-right: 75px;
+}
+
+#button-b {
+  display: flex;
+  flex-direction: row;
+}
+
+/* #button-a{
+  display: flex;
+  flex-direction: row;
+} */
+
+.button-v {
+  display: flex;
+  flex-direction: row;
+  margin-left: 890px;
+  /* border-left: 900px; */
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  color: #fff;
+  background: #b44500c4;
+  border-radius: 40px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 19px;
+  border: none;
+}
+
+.button-n {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  /* border-left: 900px; */
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 40px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 19px;
+  border: none;
+}
+
+.purple {
+  background: #eaeaea;
+  color: #676767;
+}
+
+/* the css of crime scene details begins from there   */
+.underline-crimescenedetails {
+  width: 148px;
+  height: 3px;
+  background: rgba(25, 0, 255, 0.816);
+  border-radius: 3px;
+  margin-left: 275px;
+}
+
+#drop-are {
+  display: flex;
+  width: 890px;
+  height: 250px;
+  padding: 30px;
+  background: pink;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 180px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail {
+  margin-left: 160px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.written input {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /* margin: auto; */
+  /* margin-left: 150px; */
+  font-size: 15px;
+  margin-top: 8px;
+  width: 1000px;
+  height: 85px;
+  margin-left: 160px;
+  background: #eaeaea;
+  /* border-radius: 6px; */
+  /* width: Fill (1, 059px); */
+  /* height: Fixed (120px); */
+  padding: 8px, 12px, 8px, 12px;
+  border-radius: 4px;
+  border: 2px;
+  border-color: #676767;
+  gap: 10px;
+  /* background: green, */
+  /* linear-gradient(0deg, #ffffff, #ffffff); */
+}
+
+.button-d {
+  display: flex;
+  flex-direction: row;
+  margin-left: 830px;
+  margin-bottom: 100px;
+  /* border-left: 900px; */
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  color: #fff;
+  background: #b40000fe;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 18px;
+  border: none;
+}
+
+.button-s {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 100px;
+  /* border-left: 900px; */
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 18px;
+  border: none;
+}
+
+.line-c {
+  margin-left: 160px;
+  margin-top: 33px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.underline-usercomplain {
+  width: 120px;
+  height: 3px;
+  background: rgba(25, 0, 255, 0.816);
+  border-radius: 3px;
+  margin-left: 467px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  margin-left: 182px;
+  font-weight: 500;
+}
+
+.name-box {
+  display: flex;
+}
+
+.arrange {
+  display: flex;
+}
+
+.name-box input {
+  margin-top: none;
+  display: flex;
+  margin-left: 182px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 15px;
+  width: 400px;
+  height: 25px;
+}
+
+.happened-box {
+  margin-left: 546px;
+  margin-top: 32px;
+  font-weight: 500;
+  width: 400px;
+  height: 35px;
+}
+
+.happened-bo{
+  margin-left: 367px;
+  margin-top: 32px;
+  font-weight: 500;
+  width: 400px;
+  height: 35px;
+}
+
+.boxe{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 182px;
+  font-weight: 500;
+}
+
+.name-bo input{
+  margin-top: 10px;
+  display: flex;
+  margin-left: 182px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 15px;
+  width: 400px;
+  height: 25px;
+}
+
+.button-dd{
+  display: flex;
+  flex-direction: row;
+  margin-left: 830px;
+  margin-bottom: 100px;
+  /* border-left: 900px; */
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  color: #fff;
+  background: #b40000fe;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 28px;
+  border: none;
+}
+
+.button-ss{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 100px;
+  /* border-left: 900px; */
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 28px;
+  border: none;
+}
